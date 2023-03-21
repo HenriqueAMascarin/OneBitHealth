@@ -10,5 +10,6 @@ export const headerStyle = StyleSheet.create({
         fontSize: 34,
         fontWeight: "bold",
         color: "#E2003F",
+        textTransform: "uppercase",
     }
 })

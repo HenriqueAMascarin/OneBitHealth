@@ -5,8 +5,8 @@ export const formStyle = StyleSheet.create({
         backgroundColor: "white",
         paddingVertical: 40,
         paddingHorizontal: 30,
-        borderTopRightRadius: 30,
-        borderTopLeftRadius: 30,
+        borderTopRightRadius: 50,
+        borderTopLeftRadius: 50,
         height: "100%",
     }
 })
