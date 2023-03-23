@@ -1,5 +1,5 @@
 import { View, Text} from "react-native";
-import { formStyle } from "../../../styles/form.style";
+import styles from "./style";
 
 type props = {
     messageResultImc: string
@@ -8,9 +8,9 @@ type props = {
 
 export default function ResultImc(props: props){
     return(
-        <View>
-            <Text style={formStyle.resultText}>{props.messageResultImc}</Text>
-            <Text style={formStyle.resultNumberText}>{props.resultImc}</Text>
+        <View style={styles.resultImc}>
+            <Text style={styles.information}>{props.messageResultImc}</Text>
+            <Text style={styles.numberImc}>{props.resultImc}</Text>
         </View>
     );
 }
