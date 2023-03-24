@@ -3,7 +3,7 @@ import styles from "./style";
 
 type props = {
     messageResultImc: string
-    resultImc: string
+    resultImc: string | undefined
 }
 
 export default function ResultImc(props: props){
